@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.block-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 550px;
+  margin: 0 auto;
+}
+
+.preview-container {
+  justify-content: center;
+}
+
+.add-new-block {
+  margin-left: 250px;
+}
+
+.base-block {
+  width: 300px;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dotted black;
+  margin: 20px 0;
+}
+
+.title-block {
+  height: 150px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+.text-block {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.image-container {
+  width: 250px;
+  height: 250px;
+}
+
+.image-block {
+  height: 300px;
+}
